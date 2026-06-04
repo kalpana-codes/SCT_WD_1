@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+#navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    background:black;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+}
+
+#navbar ul{
+    display:flex;
+    list-style:none;
+}
+
+#navbar ul li{
+    margin-left:20px;
+    cursor:pointer;
+}
+
+#navbar ul li:hover{
+    color:yellow;
+}
+
+.hero{
+    height:100vh;
+    background:lightblue;
+    text-align:center;
+    padding-top:200px;
+}
+
+.hero button{
+    margin-top:20px;
+    padding:10px 20px;
+}
+
+.about,
+.services,
+.contact{
+    padding:100px 20px;
+    text-align:center;
+}
